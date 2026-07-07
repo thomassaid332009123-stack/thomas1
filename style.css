@@ -1,0 +1,79 @@
+html {
+    scroll-behavior: smooth;
+}
+.nav-link:hover{
+    background-color: var(--teal-color);
+}
+:root {
+    --teal-color: #008080;
+    --teal-hover: #006666;
+    --dark-bg: #121212;
+    --secondary-dark: #1e1e1e;
+}
+
+body {
+    background-color: var(--dark-bg) !important;
+}
+
+.bg-secondary-dark {
+    background-color: var(--secondary-dark) !important;
+}
+
+.text-teal {
+    color: var(--teal-color) !important;
+}
+
+.btn-teal {
+    background-color: var(--teal-color) !important;
+    color: #ffffff !important;
+}
+
+.btn-teal:hover {
+    background-color: var(--teal-hover) !important;
+}
+
+.btn-outline-teal {
+    border-color: var(--teal-color) !important;
+    color: var(--teal-color) !important;
+}
+
+.btn-outline-teal:hover {
+    background-color: var(--teal-color) !important;
+    color: #ffffff !important;
+}
+
+.border-teal {
+    border-color: var(--teal-color) !important;
+}
+
+.hero-banner {
+    background: linear-gradient(180deg, var(--secondary-dark) 0%, var(--dark-bg) 100%);
+}
+
+.fade-in {
+    animation: fadeInAnimation 1.2s ease-in forwards;
+}
+
+@keyframes fadeInAnimation {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.product-card-hover {
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card-hover:hover {
+    transform: translateY(-8px);
+    border-color: var(--teal-color) !important;
+    box-shadow: 0 10px 20px rgba(0, 128, 128, 0.2);
+}
+
+.product-img {
+    height: 220px;
+    object-fit: cover;
+}
+.footer-link:hover {
+    color: var(--teal-color) !important;
+    transition: color 0.2s ease;
+}

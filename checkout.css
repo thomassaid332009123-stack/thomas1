@@ -1,0 +1,4 @@
+.bg-secondary-dark { background-color: #1e242b !important; }
+.text-teal { color: #00cbc6 !important; }
+.btn-teal { background-color: #00cbc6 !important; color: #12161a !important; font-weight: bold; }
+.btn-teal:hover { background-color: #00a8a4 !important; }
